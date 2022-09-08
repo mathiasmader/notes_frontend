@@ -25,7 +25,7 @@ export default function NoteComponent(props){
             <p className="text-xl p-2 font-bold">{props.note.title}</p>
             <hr className="h-1 bg-black"></hr>
 
-            <div className="h-3/4 overflow-auto scrollbar-hide">
+            <div className="h-3/4 overflow-auto overflow-x-hidden whitespace-pre-line break-words scrollbar-hide">
                 <p className="p-2">{props.note.text}</p>
             </div>
             
